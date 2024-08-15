@@ -1,0 +1,37 @@
+
+.options{
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #d9dde5; /* Kenar rengi */
+  border-radius: 4px; /* Kenarları yuvarlat */
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header{
+  padding: 20px;
+  background-color: #f5f9fc; /* Arka plan rengi */
+  display: flex;
+  justify-content: flex-start; /* İçeriği sola hizalar */
+  align-items: center; /* Dikey ortalama */
+}
+.days
+{
+  display: flex;
+}
+
+p{
+
+  text-decoration: none;
+}
+/* Varsayılan kenarlık stili */
+.day-item {
+  border: 1px solid transparent;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* Eğer bugünse, bu kenarlık uygulanacak */
+.border-today {
+  border: 2px solid;
+}
